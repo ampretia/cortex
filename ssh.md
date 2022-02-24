@@ -13,3 +13,12 @@ ssh-add ~/.ssh/id_rsa
 ```
 ssh-copy-id -i  ~/.ssh user@host
 ```
+
+
+## SCP Copy 
+```
+scp -r localdirecoty fred@remote:/home/fred
+```
+
+
+https://haydenjames.io/linux-securely-copy-files-using-scp/
