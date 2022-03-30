@@ -26,9 +26,12 @@ git commit -C HEAD@{1}
 ## Fetch PR
 To fetch a remote PR into your local repo,
 
+```
 git fetch origin pull/$ID/head:$BRANCHNAME
+```
 where $ID is the pull request id and $BRANCHNAME is the name of the new branch that you want to create. Once you have created the branch, then simply
 
+```
 git checkout $BRANCHNAME
-
+```
 [sourcee](https://stackoverflow.com/questions/27567846/how-can-i-check-out-a-github-pull-request-with-git)
